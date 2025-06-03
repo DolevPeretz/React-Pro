@@ -24,6 +24,7 @@ body {
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  position: relative;
 }
 @media screen and (min-width: 768px) {
   .booklist {
@@ -39,4 +40,30 @@ body {
 .book h2 {
   margin-top: 1rem;
   font-size: 1rem;
+}
+.book h4 {
+  color: "#617d98";
+  font-size: "0.75rem";
+  margin-top: "0.75rem";
+  letter-spacing: 2px;
+}
+.book p {
+  margin: 1rem 0 0.5rem;
+}
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  background: #c35600;
+  color: white;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+h1 {
+  text-align: center;
+  margin-top: 4rem;
+  text-transform: capitalize;
 }
